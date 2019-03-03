@@ -40,3 +40,16 @@ module.exports = function warmup(temperature) {
   return ((temperature*9/5)+32);
 };
 ```
+***
+## Experience 
+* Web-developer in MAXI.BY media (1,5 years)
+* HTML Academy (courses and intense)
+* Codewars (https://www.codewars.com/users/taras.nemov@gmail.com)
+* Padawans tasks
+***
+## Education 
+* Belarusian State University of Informatics and Radioelectronics. Faculty of Computer Technology.
+* HTML Academy (courses and intense).
+***
+## English level
+I am learned English during my study in university and keep learning it at my after-work classes.
