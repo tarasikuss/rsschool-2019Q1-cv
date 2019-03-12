@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Taras Nemau</title>
+</head>
+<header>
+        <nav class="menu-wrap">
+            <ul class="main-menu">
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#examples">Code Examples</a></li>
+                <li><a href="#expiriences">Expiriences</a></li>
+            </ul> 
+        </nav>
+</header>
+<body>
+    <section id="contacts">
+    	<h2 class="contacts-title">My contacts</h2>
+		<div class="contacts">
+			<div class="contact-block">
+				<div class="phone-icon">
+					<i class="fas fa-phone"></i>
+				</div>
+				<div class="contacts-text">
+					<a href="tel:8(029)760-64-42">8(029)760-64-42</a>
+				</div>
+			</div>
+			<div class="contact-block">
+				<div class="skype-icon">
+					<i class="fab fa-skype"></i>
+				</div>
+				<div class="contacts-text">
+					<a href="skype:privet448">privet448</a>
+				</div>
+			</div>
+			<div class="contact-block">
+				<div class="email-icon">
+					<i class="fas fa-envelope"></i>
+				</div>
+				<div class="contacts-text">
+					<a href="mailto:taras.nemov@gmail.com">taras.nemov@gmail.com</a>
+				</div>
+			</div>
+    	</div>
+    </section>
+    <section id="summary">
+			<div class="summary-wrap">
+				<div class="my-photo"><img src="assets/images/taras.jpg" alt="My photo"></div>
+				<div class="about-me">
+					<h2 class="about-title">Summary</h2>
+					<p>
+						Now I am working in field of Web-development. My main task is website development. Last year I graduated from BSUIR with a degree in Systems Engineering. Few years ago I worked as a manager and wanted to try myself in IT. I started with courses and intense in the HTML Academy and this decision has changed my life. During study in the Rolling Scopes school i want to improve my skills in Javascript and try myself as Javascript developer.
+					</p>
+				</div>
+        </div>
+    </section>
+    <section id="skills">
+    	<h2 class="skills-title">My skills</h2>
+		<div class="skills">
+			<div class="skill-block">
+				<div class="php-icon">
+					<i class="fab fa-php"></i>
+				</div>
+				<div class="skill-text">
+					PHP
+				</div>
+			</div>
+			<div class="skill-block">
+				<div class="bitrix-icon"></div>
+				<div class="skill-text">
+					Bitrix
+				</div>
+			</div>
+			<div class="skill-block">
+				<div class="js-icon">
+					<i class="fab fa-js-square"></i>
+				</div>
+				<div class="skill-text">
+					JavaScript
+				</div>
+			</div>
+			<div class="skill-block">
+				<div class="jquery-icon"></div>
+				<div class="skill-text">
+					jQuery
+				</div>
+			</div>
+			<div class="skill-block">
+				<div class="sql-icon">
+					<i class="fas fa-database"></i>
+				</div>
+				<div class="skill-text">
+					SQL
+				</div>
+			</div>
+			<div class="skill-block">
+				<div class="html-icon">
+					<i class="fas fa-code"></i>
+				</div>
+				<div class="skill-text">
+					HTML/CSS
+				</div>
+			</div>
+    	</div>
+    </section>
+   	<section id="examples">
+   		<h2 class="code-title">Code Examples</h2>
+			<div class="code-examples">
+				<div class="code-example">
+					<div class="code-title"><h3>My solution of the task “Love triangles”:</h3></div>
+					<div class="code">
+						<code>
+							function getLoveTrianglesCount(preferences = []) {<br>
+								// your implementation<br>
+								var quantity = 0;<br>
+								for (var i=0; i&#60;preferences.length; i++){<br>
+								    var firstElem = preferences[i];<br>
+								    var secondElem = preferences[firstElem-1];<br>
+								    var thirdElem = preferences[secondElem-1];<br>
+									if (firstElem!==secondElem&&<br>
+									secondElem!==thirdElem&&<br>
+									firstElem!==thirdElem&&<br>
+									thirdElem===(i+1)){<br>
+										quantity++;<br>
+									}<br>
+								}<br>
+								return quantity/3;<br>
+								};<br>
+						</code>
+					</div>
+				</div>
+				<div class="code-example">
+					<div class="code-title"><h3>My solution of the task “Warmup”:</h3></div>
+					<div class="code">
+						<code>
+							module.exports = function warmup(temperature) {<br>
+								return ((temperature*9/5)+32);<br>
+							};<br>
+						</code>
+					</div>
+				</div>
+        	</div>
+    </section>
+    <section id="expiriences">
+			<div class="expiriences">
+				<div class="expirience">
+					<div class="exp-title"><h2>Experience</h2></div>
+					<div class="exp-text">
+					<ul>
+						<li>Web-developer in MAXI.BY media (1,5 years)</li>
+						<li>HTML Academy (courses and intense)</li>
+						<li>Codewars (https://www.codewars.com/users/taras.nemov@gmail.com)</li>
+						<li>Padawans tasks</li>
+					</ul>
+					</div>
+				</div>
+				<div class="expirience">
+					<div class="exp-title"><h2>Education</h2></div>
+					<div class="exp-text">
+					<ul>
+						<li>Belarusian State University of Informatics and Radioelectronics.<br>
+						 Faculty of Computer Technology.</li>
+						<li>HTML Academy (courses and intense).</li>
+						<li>Codewars (https://www.codewars.com/users/taras.nemov@gmail.com)</li>
+						<li>Padawans tasks</li>
+					</ul>
+					</div>
+				</div>
+				<div class="expirience">
+					<div class="exp-title"><h2>English level</h2></div>
+					<div class="exp-text">
+						<p>I am learned English during my study in university and keep learning it at my after-work classes.</p>
+					</div>
+				</div>
+        	</div>
+    </section>
+    <footer>
+        <p>© Designed by Taras Nemau</p>
+    </footer>
+</body>
+</html>
