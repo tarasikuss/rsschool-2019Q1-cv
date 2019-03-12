@@ -1,1 +1,1 @@
-[Link to Github page](https://tarasikuss.github.io/rsschool-2019Q1-cv/cv)
+[Link to Github page](https://tarasikuss.github.io/rsschool-2019Q1-cv/)
