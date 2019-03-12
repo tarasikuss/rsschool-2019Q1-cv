@@ -51,6 +51,10 @@ header, section {
     text-decoration: none;
 }
 
+.main-menu li a:hover {
+	color: #2eb398;
+}
+
 .my-photo {
     width: 25%;
     margin-bottom: -3px;
